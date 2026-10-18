@@ -1,8 +1,4 @@
-"""Real Python data structures used by the PetalPop Flask API.
 
-No photographs are saved on disk. Sessions contain photo metadata only; the
-browser holds full-resolution images until a final strip is sent for printing.
-"""
 from collections import deque
 from dataclasses import dataclass, field
 from copy import deepcopy
